@@ -1,2 +1,3 @@
 # for-fashion
-for speeding up the website
+allow CloudFlare
+allow CloudFlare to increase website speed
