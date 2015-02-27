@@ -1,10 +1,9 @@
-# for-fashion
 
 
 
 {
     
-    "name": "fashion speed",
+    "name": "faashion speed",
     "description": "will be used to speed up website",
     "version": "0.7",
     "category": "analytics",
@@ -19,37 +18,37 @@
         }, 
         "assets":{
             "logos" : {
-                "200px": "./public/images/logo-200.png",
-                "132px": "./public/images/logo-132.png"
+                "200px": ".http://www.fashiononline.com.ng/wp-content/uploads/2013/12/AB-2new1.png",
+                "132px": ".http://www.fashiononline.com.ng/wp-content/uploads/2013/12/AB-2new1.png"
             },
             "detail_page" : [
-                "./public/images/example.png"
+                "http://www.fashiononline.com.ng/wp-content/uploads/2013/12/AB-2new1.png"
             ],
             "images" : [
-                "./public/images/counter.png"
+                ".http://www.fashiononline.com.ng/wp-content/uploads/2013/12/AB-2new1.png
             ]
         },
         "interface": [
             {
                 "type": "string",
-                "id": "food",
-                "name": "Favorite Food",
-                "description": "Please tell us your favorite food.",
+                "id": "clothes",
+                "name": "Favorite dress",
+                "description": "Please tell us your favorite dress.",
                 "domain_request": true,
                 "private": true
             },
             {
                 "type": "select",
-                "id": "lottery",
-                "name": "Do you Lotto?",
-                "description": "Choose whether to buy a ticket",
+                "id": "shopping",
+                "name": "Do you shop?",
+                "description": "Choose whether to buy a shopping voucher",
                 "options": [
                     {
-                        "label": "Yes, buy a ticket!",
+                        "label": "Yes, buy a shopping voucher!",
                         "value": "true"
                     },
                     {
-                        "label": "No, I am scared.",
+                        "label": "yes i want one.",
                         "value": ""
                     }
                 ]
@@ -57,23 +56,21 @@
         ]
     },
     "account": {
-        "callback_url": "http://countersback.herokuapp.com/api",
-        "user_fields": ["email"]
+        "callback_url": "http://faashiononline.com.ng/api",
+        "user_fields": ["fashiononline.com.ng"]
     },
     "billing": {
         "type": "zone",
         "plans":[
             {
-                "name" : "Chowder",
+                "name" : "fashion applet",
                 "price": "3.20"
             },
             {
-                "name" : "Minestrone",
+                "name" : "fashion app",
                 "price" : "6.55"
             }
         ]
     }
 }
-
-
 
